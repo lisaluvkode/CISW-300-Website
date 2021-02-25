@@ -1,0 +1,30 @@
+body{
+  background-color: #88a272;
+  font-family: tahoma,geneva, sans-serif;
+}
+
+h1{
+  color: #e7efec;
+}
+
+h2{
+  color:#fcfdf4;
+}
+
+h3{
+  color:#153527;
+}
+
+p{
+  color:#434a1d;
+  font-family: Trebuchetms, helvetica,sans-serif;
+}
+
+ul{
+  list-style-type:upper-alpha;
+}
+
+li{
+  color: #f5faf1;
+  font-family: arial black, gadget, sans-serif;
+}

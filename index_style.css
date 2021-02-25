@@ -1,0 +1,75 @@
+body{
+  background-color:#D6E5E3  ;
+}
+
+nav p{
+  text-align: center;
+}
+
+h1{
+  font-family: monospace;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+}
+
+h2{
+  color:#474B24 ;
+  font-family: fantasy ;
+}
+
+p{
+  font-family:  cursive;
+  font-size: 1.1em;
+}
+
+.highlight{
+ background-color: #97DB4F;
+}
+
+/*The following styles the semantic elements on my index page.*/
+header{
+  padding: 40px;
+  background-color:#474B24;
+}
+
+nav{
+    padding-top: 10px;
+    padding: 10px;
+    background-color:#BFC0C0;
+}
+
+main{
+  padding: 0px 20px 0px 20px;
+  clear: both;
+  background-color:#C8D5C3;
+}
+
+footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  clear: both;
+  background-color:#474B24;
+  color: white;
+}
+
+/*The following will affect all hypertext links.*/
+a:link{
+  color: #131416;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #DF3B57;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #4D5359;
+  text-decoration:underline;
+}
+
+a:active{
+  color:#0F7173 ;
+  text-decoration: none;
+}

@@ -1,0 +1,1 @@
+Welcome to learning about embedding audio using the latest HTML5 techniques. The new HTML5 audio element supports native play of audio files in the browser—without the need for plug-ins or players. The audio element begins with the <audio> tag and ends with the </audio> tag.

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Lisa's Web Form</title>
+    <meta charset="utf-8">
+    <style>
+      body{
+        background-color: #AEB7B3;
+      }
+      form{
+        background-color: #E2C290;
+        font-family: verdana, sans-serif;
+        width:50% ;
+        padding: 25px;
+        margin: auto;
+      }
+      label{
+        float: left;
+        width:245px ;
+
+      }
+      input{
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
+      label[for=gift],[for=volunteer], [for=newsletter]{
+        width: 200px;
+        float: none;
+      }
+      legend{
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      a:link{
+        color: #131416;
+        text-decoration: none;
+      }
+      a:visted{
+        color: #DF3B57;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #4D5359;
+        text-decoration: underline;
+      }
+      footer{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <h1>Donation Form</h1>
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" id="fname" value=""><br>
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" id="lname" value=""><br>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" value="" required><br>
+      <fieldset>
+        <legend>Donation Amount</legend>
+        <input type="radio" name="amt" id="amt" value="20">$20<br>
+        <input type="radio" name="amt" id="amt" value="50">$50<br>
+        <input type="radio" name="amt" id="amt" value="100">$100<br>
+        <input type="radio" name="amt" id="amt" value="other">Other<br>
+      </fieldset><br>
+      <fieldset>
+        <legend>Payment Type</legend>
+        <input type="radio" name="card" id="visa" value="">
+        <label for="visa">Visa</label><br>
+        <input type="radio" name="card" id="master" value="">
+        <label for="mastercard">Mastercard</label><br>
+        <input type="radio" name="card" id="express" value="">
+        <label for="americanexpress">American Express</label><br>
+        <input type="radio" name="card" id="discover" value="">
+        <label for="discover">Discover</label><br>
+        <label for="card">Card Number</label>
+        <input type="text" name="exp" id="exp" value=""><br>
+        <label for="expire">Expiration</label>
+        <select class="" name="">
+          <option value="1">January</option>
+          <option value="2">February</option>
+          <option value="3">March</option>
+          <option value="4">April</option>
+          <option value="5">May</option>
+          <option value="6">June</option>
+          <option value="7">July</option>
+          <option value="8">August</option>
+          <option value="9">September</option>
+          <option value="10">October</option>
+          <option value="11">November</option>
+          <option value="12">December</option>
+        </select>
+        <select class="" name="year">
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+        </select>
+        <label for="cvv">CVV</label><br>
+        <input type="number" min="-999" max="999" maxlength="3" name="" value="">
+      </fieldset><br>
+      <fieldset>
+        <legend>Additional Information</legend>
+        <input type="checkbox" name="" value="">
+        <label for="gift">I would like to dedicate this donation to someone</label><br>
+        <input type="checkbox" name="" value="">
+        <label for="volunteer">I am interested in volunteering</label><br>
+        <input type="checkbox" name="" value="">
+        <label for="newsletter">Subscribe to our newsletter</label>
+      </fieldset><br>
+      <label for="tshirt">T-Shirt Size:</label>
+      <input type="text" name="size" value="" list="size" placeholder="XS">
+      <datalist id="size">
+        <option value="XS">
+        <option value="S">
+        <option value="M">
+        <option value="L">
+        <option value="XL">
+        <option value="XXL">
+      </datalist><br>
+      <label for="comment">Comments:</label><br>
+      <textarea name="name" rows="2" cols="40"></textarea><br>
+      <input type="submit" name="" value="Submit">
+    </form>
+    <footer>
+      <p><a href="index.html">Home</a> | <a href="http://power.arc.losrios.edu/">Power Server</a></p>
+    </footer>
+  </body>
+</html>

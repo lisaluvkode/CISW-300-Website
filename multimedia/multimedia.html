@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Multimedia</title>
+    <meta charset="utf-8">
+    <style>
+      body{
+        background-color: #a0ccd7;
+      }
+      h1{
+        text-transform: uppercase;
+        font-size: 45px;
+        color: #3bb7c4;
+        font-family:  fantasy, sans-serif;
+        letter-spacing: 5px;
+      }
+
+      h2{
+        font-size: 25px;
+        font-weight: 100;
+        font-family: cursive;
+      }
+
+      h3{
+        color: #930;
+      }
+
+      p{
+        font-style: italic;
+        font-family: Georgia, sans-serif;
+        font-size: 18px;
+      }
+      .transcript{
+        font-family: monospace;
+        border: 1px solid black;
+        width: 450px;
+        height: 90px;
+        overflow: scroll;
+        background-color: #a8bca1;
+        }
+
+      a:link{
+        color: #131416;
+        text-decoration: none;
+      }
+
+      a:visited{
+        color: #DF3B57;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color: #4D5359;
+        text-decoration:underline;
+      }
+
+      a:active{
+        color:#0F7173 ;
+        text-decoration: none;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <h1>Multimedia</h1>
+    <h2>Podcast</h2>
+    <p>Play audio podcast. This audio podcast is about using audio tag in HTML5.</p>
+    <audio controls="controls">
+      <source src="podcast.mp3" type="audio/mpeg">
+      <source src="podcast.ogg" type="audio/ogg">
+    </audio><br>
+    <a href="podcast.mp3">Download the Podcast</a>
+    <h3>Transcript</h3>
+    <p class="transcript">Welcome to learning about embedding audio using the latest HTML5 techniques. The new HTML5 audio element supports native play of audio files in the browser—without the need for plug-ins or players. The audio element begins with the <audio> tag and ends with the </audio> tag.</p>
+    <h2>Video</h2>
+    <p>Short video clip embedded into the website. A girl and a dog are playing together at the beach.  </p>
+      <video poster="posterimage.jpg" controls width="260" height="250">
+        <source src="cooper_n_g.mp4" type="video/mp4">
+        <source src="cooper_n_g.ogv" type="video/ogv">
+      </video><br>
+      <a href="cooper_n_g.mp4">Download the Video</a>
+      <footer>
+        <p><a href="../index.html">Home</a> | <a href="http://power.arc.losrios.edu/">Power Server</a></p>
+      </footer>
+  </body>
+</html>
